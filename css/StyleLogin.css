@@ -1,0 +1,70 @@
+﻿body 
+{
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+
+#divMain
+{
+    width: 312px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#divLogo
+{
+    width: 292px;
+    height: auto;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+#divLoginBox
+{
+    width: 272px;
+    height: auto;
+    padding: 20px 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #777777;
+    -moz-box-shadow: 0px 3px 15px #d7d7d7;
+    -webkit-box-shadow: 0px 3px 15px #d7d7d7;
+    box-shadow: 0px 3px 15px #d7d7d7;
+}
+
+.txtBox
+{
+    border: 1px solid #e5e5e5;
+    width: 255px;
+    height: 35px;
+    font-family: Tahoma;
+    font-size: 25px;
+    background-color: #fbfbfb;
+    color: #555555;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btnLogin
+{
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 30px;
+    
+    border: 0px solid #bbbbbb;
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    background-color: #e23923;
+    font-family: tahoma;
+    font-size: 10px;
+    color: #ffffff;
+}

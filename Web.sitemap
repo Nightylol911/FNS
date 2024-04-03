@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Default.aspx" title="Home"  description="">
+    
+    <siteMapNode url="~/ua/SecurityEstDiv.aspx" title="Security Est. Divisions"  description="" />
+    <siteMapNode url="~/ua/SecurityEst.aspx" title="Security Est."  description="">
+      <siteMapNode url="~/ua/SecurityEst_Add.aspx" title="Add New Security Est."  description="" />
+      <siteMapNode url="~/ua/SecurityEst_Edit.aspx" title="Edit Security Est."  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/us/ViewNotifications.aspx" title="View Notifications"  description="">
+      <siteMapNode url="~/us/ViewNotification.aspx" title="View Notification"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/us/Monitor.aspx" title="Monitor"  description="" />
+  </siteMapNode>
+  
+</siteMap>

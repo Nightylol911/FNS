@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fast Notification System</title>
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div id="logo"></div>
+            <span style="float: left; font-size: 36px; padding: 22px; font-weight: bold;">Fast Notification System</span>
+
+            <div id="loginInfo">
+                Welcome, 
+                <asp:LoginName ID="LoginName" runat="server" /> | 
+                <asp:LoginStatus ID="LoginStatus" runat="server" />
+            </div>
+        </div>
+        <div id="menu">
+            ​<asp:SiteMapDataSource id="mainNav" runat="server" />
+            <asp:SiteMapPath ID="SiteMapPath" runat="server" DataSourceId="mainNav"></asp:SiteMapPath>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <div style="float: left;">FNS - Fast Notification System</div>
+            <div style="float: right;">All Rights reserved - 2023 ©</div>
+        </div>
+    </form>
+</body>
+</html>

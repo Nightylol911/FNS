@@ -1,0 +1,250 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+body 
+{
+    min-width: 700px;
+    margin: 0px 0px 100px;
+    background-color: #ededed;
+    
+    font-family: 'Open Sans';
+}
+
+#header
+{
+    width: calc(100% - 80px);
+    min-width: 700px;
+    height: 100px;
+    padding: 10px 40px;
+    background-color: #26282d;
+    color: #e23923;   
+}
+
+#logo
+{
+    float: left;
+    width: 95px;
+    height: 95px;
+    background-image: url('../image/Logo-W.png');
+    background-size: 95px 95px;
+    background-repeat: no-repeat;
+}
+
+#loginInfo
+{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    color: #e23923;
+}
+#loginInfo a
+{
+    color: #e23923;
+}
+
+#menu
+{
+    width: calc(100% - 80px);
+    height: 30px;
+    padding: 5px 40px 0px;
+    background-color: #444343;
+    color: #cccccc;
+}
+#menu a
+{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#content
+{
+    width: calc(100%- 100px);
+    min-width: 700px;
+    padding: 50px;
+    color: #000000;
+}
+
+#footer
+{
+    width: calc(100% - 80px);
+    min-width: 700px;
+    height: 27px;
+    padding: 0px 40px;
+    padding-top: 13px;
+    background-color: #444343;
+    color: #cccccc;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#mapContainer
+{
+    height: 500px;
+    width: 90%;
+    border: 2px solid #cccccc;
+}
+
+.box {
+    width: 215px;
+    height: 245px;
+    margin: 13px;
+    background-color: #cccccc;
+    float: left;
+}
+
+.btnbox {
+    width: 185px;
+    height: 165px;
+    margin: 13px;
+    padding: 40px 15px;
+    background-color: #e23923;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.btnbox:hover {
+    background-color: #af0033;
+}
+
+.btnbox a {
+    text-decoration: none;
+}
+
+.btn
+{
+    padding: 5px;
+    height: 30px;
+    border: 0px solid #bbbbbb;
+    background-color: #e23923;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.btnc
+{
+    padding: 5px;
+    height: 30px;
+    border: 0px solid #bbbbbb;
+    background-color: #cccccc;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #727272;
+}
+
+h2
+{
+    color: #af0033;
+}
+
+hr
+{
+    border: 0px;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.formbox
+{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.formbox div.title
+{
+    float: left; 
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.formbox div.input
+{
+    float: left; 
+    width: calc(80% - 20px);
+    padding-left: 10px;
+}
+
+.formbox hr
+{
+    width: calc(100% - 60px);
+}
+
+.formbox div.clear
+{
+    clear: both;
+}
+
+div.page
+{
+    width: calc(100% - 40px);
+    padding: 0px;
+}
+
+div.page hr
+{
+    border: 0px;
+    height: 1px;
+    background-color: #d4d4d4;
+}
+
+div.pageinfo
+{
+    width: calc(100% - 40px);
+    padding: 20px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+div.gvborder
+{
+    border: 2px solid #cccccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+table.gv
+{
+    width: 100%;
+}
+
+table.gv th
+{
+    border: 0px solid #fff;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding: 5px;
+    color: #aaaaaa;
+}
+
+table.gv td
+{
+    border: 0px solid #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+}
+
+.alert
+{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    color: #a94442;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ebccd1;
+    background-color: #f2dede;
+}
