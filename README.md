@@ -1,4 +1,4 @@
-## Graduation project FNS - Fast Notification Sysytem
+## FNS - Fast Notification Sysytem
 
 In today's world, we need a fast method for notifying civil defense, ambulances, and proposing an easier method. As a result of this process, civil defense or ambulances have difficulty locating the accident site, causing delays in their arrival. It is therefore suggested that the (IT student) provide systems in houses or institutions that are equipped with a detector device. As soon as an accident occurs, the detector device notifies the regulator server, which then sends a map showing the quickest route to the site to the responsible. By doing so, we will be saving time and minimizing losses. For solving the problem specified, we have proposed a system called Fast Notification System (FNS).
 
